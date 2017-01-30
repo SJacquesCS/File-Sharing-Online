@@ -1,0 +1,11 @@
+File Name: 353_a1.pdf
+File size: 145128 bytes
+File location on server: /tmp/phpO1NZ1v
+
+Uploading file...
+
+File saved to server!....
+
+The md5 digest of the uploaded file: 9535fc689732d565f673093aa5d2b745
+
+File uploaded successfully!

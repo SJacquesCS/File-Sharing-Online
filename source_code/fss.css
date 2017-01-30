@@ -1,0 +1,263 @@
+
+/******************GENERAL STYLE******************/
+
+/******************TAGS******************/
+
+/*  B  */
+
+body {
+	background-color:#3d5c5c;
+}
+
+/*  F  */
+
+fieldset {
+	border: 3px solid gray;
+	border-radius:0.45em 0.45em 0.45em 0.45em;
+}
+
+/*  L  */
+
+legend {
+	font-weight: bold;
+	color: gray;
+}
+
+/*  T  */
+
+table , td, th{
+	border: 0px solid black;
+	text-align:center;
+	border-radius:0.45em 0.45em 0.45em 0.45em;
+	color:white;
+}
+
+td {
+	background-color: #5F86A4;
+	border:0px;
+	color:black;
+	padding-bottom:2px;
+	padding-top:2px;
+}
+
+td, th {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+table.enrolled_students {
+	position: absolute;
+	left: 55px;
+}
+
+
+table.enrolled_students td, th {
+    padding-left: 5px;
+	padding-right: 5px;
+}
+
+th {
+	background-color: #164468;
+	border:1px solid black;
+}
+
+
+/******************CLASSES******************/
+
+/*  B  */
+
+.button{
+	display: block;
+	color: white;
+	padding: 0px 40px 0px 40px;
+	border: 1px solid white;
+	border-radius:0.45em 0.45em 0.45em 0.45em;
+	text-decoration: none;
+	background-color:#164468;
+	cursor:pointer;
+}
+
+.button:hover {
+	background-color:#363636;
+	color:white;
+}
+
+/*  C  */
+
+.centerheader1{
+	text-align: center;
+}
+
+.centerheader2{
+	background-color: #164468;
+	text-align: center;
+	border:0px;
+	color:white;
+	border-radius:0.45em 0.45em 0.45em 0.45em;
+	padding:2px;
+}
+.fieldsetBold{
+	font-weight: bold;
+	border: 3px outset #92baa4;
+}
+
+.container{
+	position:absolute;
+	left:50%;
+	margin-top:2.5%;
+	margin:0 0 0 -480px;
+}
+
+.content{
+	overflow:auto;
+	position:absolute;
+	background-color: #96D1B1;
+	height:545px;
+	width:696px;
+	top:165px;
+	left:175px;
+	border:3px solid white;
+	border-radius:0.45em 0.45em 0.45em 0.45em;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+/*  D  */
+
+.download2 a {
+	display: block;
+	color: white;
+	padding: 0px 40px 0px 40px;
+	border: 1px solid white;
+	border-radius:0.45em 0.45em 0.45em 0.45em;
+	text-decoration: none;
+	background-color:#164468;
+}
+
+.download2 a:hover {
+	background-color:#363636;
+	color:white;
+}
+
+/*  F  */
+
+.footer{
+	position:absolute;
+	background-color: #5F86A4;
+	height:100px;
+	width:952px;
+	top:725px;
+	border:3px solid white;
+	border-radius:0.45em 0.45em 0.45em 0.45em;
+	text-align: center;
+	line-height: 100%;
+}
+
+.footer p{
+	font-size: 15px;
+}
+
+/*  H  */
+
+.header{
+	position:absolute;
+	background-color: #5F86A4;
+	height:150px;
+	width:952px;
+	border:3px solid white;
+	border-radius:0.45em 0.45em 0.45em 0.45em;
+	text-align: center;
+	line-height: 120%;
+	font-variant: small-caps;
+}
+
+.header h1{		
+	font-size: 300%;
+	font-family: "Lucida Console", Monaco, monospace;
+	text-decoration: underline;
+}
+
+.header h2{
+	font-weight: normal;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+.header img{
+	width:149px;
+	float:left;
+	border-right:3px solid white;
+}
+
+/*  L  */
+
+.list {
+	position:absolute;
+	left:400px;
+	top:50px;
+}
+
+.list2 {
+	position:absolute;
+	left:400px;
+	top:50px;
+}
+
+.list2 table{
+	margin-left:-100px;
+}
+
+.list3 {
+	position:absolute;
+	left:400px;
+	top:50px;
+}
+
+
+.list3 table{
+	margin-left:-65px;
+}
+
+.login {
+	margin-left:25%;
+	margin-right:25%;
+	margin-top:15%;
+	background-color:#96D1B1;
+	border:3px solid white;
+	border-radius:0.45em 0.45em 0.45em 0.45em;
+}
+
+/*  N  */
+
+.nav{
+	position:absolute;
+	background-color: #164468;
+	height:546px;
+	width:160px;
+	top:165px;
+	border:3px solid white;
+	border-radius:0.45em 0.45em 0.45em 0.45em;
+}
+
+.navlist{
+	list-style-type: none;
+	margin-top:25px;
+	padding:0;
+	width:160px;
+	border-radius:0.45em 0.45em 0.45em 0.45em;
+}
+
+.navlist li a{
+	display: block;
+	color: white;
+	padding: 10px 0px 10px 10px;
+	text-decoration: none;
+}
+
+.navlist li a:hover{
+	background-color:#363636;
+	color:white;
+}
+
+.null a {
+	display:none;
+}
